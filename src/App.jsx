@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/my-website/">
         <Routes>
           <Route path="/" element={<Public />} />
         </Routes>
